@@ -1,0 +1,614 @@
+<resources>
+
+
+    <style name="WeekTab">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:paddingVertical">8dp</item>
+        <item name="android:paddingHorizontal">16dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <style name="WeekTab.Active">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:paddingVertical">8dp</item>
+        <item name="android:paddingHorizontal">16dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?android:attr/textColorHighlight</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <style name="FoodWeekTab">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:paddingVertical">8dp</item>
+        <item name="android:paddingHorizontal">16dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?android:attr/textColorHighlight</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <style name="AuthTitle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/subTitleTextSize</item>
+        <item name="android:layout_marginTop">148dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">?attr/fontFamily</item>
+    </style>
+
+    <style name="AuthSubtitle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/subTitleTextSize</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">?android:attr/fontFamily</item>
+    </style>
+
+
+    <style name="WeightTrackEditText">
+        <item name="android:padding">8dp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textColorHint">?attr/hintTextColor</item>
+        <item name="android:inputType">numberDecimal</item>
+        <item name="android:layout_margin">12dp</item>
+        <item name="android:textSize">@dimen/body</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+
+    <style name="AuthButton">
+        <item name="android:backgroundTint">?attr/colorPrimary</item>
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">?attr/fontFamily</item>
+        <item name="elevation">5dp</item>
+    </style>
+
+    <style name="AuthLink">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="SignOutLink">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+    <style name="ScreenDescription">
+        <item name="android:textSize">@dimen/subHeadingTextSize</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="HeadingText">
+        <item name="android:textSize">@dimen/subHeadingTextSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_marginBottom">12dp</item>
+    </style>
+
+
+    <style name="FollowUsText">
+        <item name="android:textSize">@dimen/body</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_marginBottom">12dp</item>
+    </style>
+
+    <style name="StartupButton">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/startup_button_bg</item>
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginBottom">80dp</item>
+        <item name="android:elevation">6dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+
+    <style name="ItemContainerStyle">
+        <item name="android:background">@drawable/workout_set_card_past</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:elevation">6dp</item>
+        <item name="android:layout_marginHorizontal">16dp</item>
+        <item name="android:layout_marginVertical">8dp</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+
+
+    <style name="StreakIconStyle">
+        <item name="android:layout_width">35dp</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:layout_marginEnd">4dp</item>
+        <item name="android:contentDescription">@string/strike_icon</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+
+    <style name="StreakCount">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">@dimen/subHeadingTextSize</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="HeadingStyle">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">@dimen/headingTextSize</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="CalenderText" parent="HeadingStyle">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">@dimen/subHeadingTextSize</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="Name_Style" parent="HeadingStyle">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">?android:attr/textColorHighlight</item>
+    </style>
+
+
+    <style name="WorkoutTextStyleBase">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="TextDayName_Past" parent="WorkoutTextStyleBase">
+        <item name="android:textColor">?attr/workoutTextColorPast</item>
+    </style>
+
+    <style name="TextDayName_Today" parent="WorkoutTextStyleBase">
+        <item name="android:textColor">?attr/workoutTextColorToday</item>
+    </style>
+
+    <style name="TextDayName_Future" parent="WorkoutTextStyleBase">
+        <item name="android:textColor">?attr/workoutTextColorFuture</item>
+    </style>
+
+    <style name="Date">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">@dimen/subHeadingTextSize</item>
+    </style>
+
+    <style name="LeftArrow">
+        <item name="android:src">@drawable/outline_chevron_left_24</item>
+    </style>
+
+    <style name="RightArrow">
+        <item name="android:src">@drawable/outline_chevron_right_24</item>
+        <item name="android:background">?attr/colorOnBackground</item>
+    </style>
+
+
+    <style name="Day">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textSize">@dimen/body</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="CalenderDate" parent="Date">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="CaloriesRelatedText">
+        <item name="android:gravity">center</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">@dimen/body</item>
+    </style>
+
+    <style name="WeightText" parent="CaloriesRelatedText">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="TableHeaderText" parent="WeightText" />
+
+    <style name="CalorieCount" parent="CaloriesRelatedText">
+        <item name="android:textSize">@dimen/headingTextSize</item>
+        <item name="android:textColor">?android:attr/textColorHighlight</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="RoundedImage">
+        <item name="elevation">5dp</item>
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+
+    <style name="WorkListItemDayNumberTextPast">
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+        <item name="android:textSize">@dimen/body</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="WorkListItemDayTextPast">
+        <item name="android:textColor">?attr/workoutTextColorPast</item>
+        <item name="android:textSize">@dimen/body</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="WorkListItemWorkoutTextPast">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">@dimen/subHeadingTextSize</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="WorkListItemDateTextPast">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textSize">@dimen/body</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+
+    <style name="WorkListItemDayNumberTextToday">
+        <item name="android:textColor">?attr/workoutTextColorToday</item>
+        <item name="android:textSize">@dimen/body</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="WorkListItemDayTextToday">
+        <item name="android:textColor">?attr/workoutTextColorToday</item>
+        <item name="android:textSize">@dimen/body</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="WorkListItemWorkoutTextToday">
+        <item name="android:textColor">?attr/workoutTextColorToday</item>
+        <item name="android:textSize">@dimen/subHeadingTextSize</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="WorkListItemDateTextToday">
+        <item name="android:textColor">?attr/workoutTextColorToday</item>
+        <item name="android:textSize">@dimen/body</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="ItemContainerStyleWorkoutToday">
+        <item name="android:background">@drawable/workout_set_card_today</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:elevation">6dp</item>
+        <item name="android:layout_marginHorizontal">16dp</item>
+        <item name="android:layout_marginVertical">8dp</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+
+
+    <style name="WorkListItemDayNumberTextFuture">
+        <item name="android:textColor">@color/FutureTextColor</item>
+        <item name="android:textSize">@dimen/body</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="WorkListItemDayTextFuture">
+        <item name="android:textColor">?attr/workoutTextColorFuture</item>
+        <item name="android:textSize">@dimen/body</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="WorkListItemWorkoutTextFuture">
+        <item name="android:textColor">@color/FutureTextColor</item>
+        <item name="android:textSize">@dimen/subHeadingTextSize</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="WorkListItemDateTextFuture">
+        <item name="android:textColor">@color/FutureTextColor</item>
+        <item name="android:textSize">@dimen/body</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+
+    <style name="WorkListItemDayToday" parent="WorkListItemDayTextFuture">
+        <item name="android:textColor">?attr/workoutTextColorToday</item>
+    </style>
+
+    <style name="WorkListItemDayPast" parent="WorkListItemDayTextFuture">
+        <item name="android:textColor">?attr/workoutTextColorPast</item>
+    </style>
+
+
+    <style name="WorkoutTitle">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">@dimen/headingTextSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="ExerciseCount">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textSize">@dimen/subHeadingTextSize</item>
+    </style>
+
+    <style name="UpdateButtonStyle">
+        <item name="android:backgroundTint">@color/gray</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/body</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+
+
+    <style name="WorkoutDoneButton">
+        <item name="android:textColor">?android:attr/textColorSecondaryInverse</item>
+        <item name="android:textSize">@dimen/body</item>
+        <item name="android:backgroundTint">?android:attr/textColorHighlight</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+
+    <style name="SetsText">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textSize">@dimen/body</item>
+    </style>
+
+    <style name="Workout" parent="WorkoutTitle">
+        <item name="android:textColor">?android:attr/textColorHighlight</item>
+    </style>
+
+    <style name="WorkoutStatLabel">
+        <item name="android:textSize">@dimen/subHeadingTextSize</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="WorkoutStatValue">
+        <item name="android:textSize">@dimen/subHeadingTextSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+
+    <style name="WorkoutCardContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+
+        <item name="android:layout_margin">16dp</item>
+
+        <item name="android:background">@drawable/workout_card_background</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="WorkoutSetLabel">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/subHeadingTextSize</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+    <style name="WorkoutWeightEditText">
+
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/body</item>
+        <item name="android:maxLength">5</item>
+        <item name="android:inputType">numberDecimal</item>
+    </style>
+
+
+    <style name="WorkoutRepsEditText">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/body</item>
+        <item name="android:maxLength">2</item>
+        <item name="android:inputType">number</item>
+        <item name="android:layout_marginStart">32dp</item>
+    </style>
+
+    <style name="WorkoutValueText">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/body</item>
+
+    </style>
+
+
+    <style name="FoodItemDateTextStylePast">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">@dimen/subHeadingTextSize</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="FoodItemTitleTextStylePast">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textSize">@dimen/body</item>
+        <item name="android:layout_marginTop">2dp</item>
+    </style>
+
+
+    <style name="FoodItemDateTextStyleFuture">
+        <item name="android:textColor">@color/FutureTextColor</item>
+        <item name="android:textSize">@dimen/subHeadingTextSize</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="FoodItemTitleTextStyleFuture">
+        <item name="android:textColor">@color/FutureTextColor</item>
+        <item name="android:textSize">@dimen/body</item>
+        <item name="android:layout_marginTop">2dp</item>
+    </style>
+
+
+    <style name="FoodItemDateTextStyleToday">
+        <item name="android:textColor">?android:attr/textColorSecondaryInverse</item>
+        <item name="android:textSize">@dimen/subHeadingTextSize</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="FoodItemTitleTextStyleToday">
+        <item name="android:textColor">?android:attr/textColorSecondaryInverse</item>
+        <item name="android:textSize">@dimen/body</item>
+        <item name="android:layout_marginTop">2dp</item>
+    </style>
+
+
+    <style name="Glass">
+        <item name="android:layout_width">32dp</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:src">@drawable/outline_water_loss_24</item>
+    </style>
+
+
+    <style name="MealCardTitle">
+        <item name="android:layout_marginStart">12dp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">@dimen/subHeadingTextSize</item>
+
+    </style>
+
+    <style name="MealCardCalorie">
+        <item name="android:textColor">?android:attr/textColorHighlight</item>
+        <item name="android:textSize">@dimen/subHeadingTextSize</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="MealCardMacroText">
+        <item name="android:layout_gravity">start</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">@dimen/body</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+
+    <style name="TrackerTitle" parent="HeadingStyle">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">@dimen/subHeadingTextSize</item>
+    </style>
+
+    <style name="SleepCheckbox">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">@dimen/body</item>
+        <item name="android:buttonTint">@color/red_background</item>
+    </style>
+
+
+    <style name="ProfileSectionText">
+        <item name="android:textSize">@dimen/subHeadingTextSize</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="LogoutButtonStyle">
+        <item name="android:backgroundTint">@color/container_background</item>
+        <item name="android:textColor">@color/red_background</item>
+        <item name="android:elevation">4dp</item>
+        <item name="android:textSize">@dimen/body</item>
+    </style>
+
+    <style name="LabelText">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textSize">@dimen/body</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.03</item>
+    </style>
+
+    <style name="ValueText">
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">@dimen/subHeadingTextSize</item>
+    </style>
+
+
+    <style name="UserNameEditTextStyle">
+        <item name="android:layout_marginBottom">32dp</item>
+        <item name="android:hint">@string/enter_new_username</item>
+        <item name="android:paddingVertical">12dp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">@dimen/subHeadingTextSize</item>
+    </style>
+
+
+    <style name="FoodName">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">@dimen/subHeadingTextSize</item>
+    </style>
+
+
+    <style name="SpinnerStyle">
+        <item name="android:textSize">@dimen/subHeadingTextSize</item>
+        <item name="android:background">@drawable/rounded_edittext</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:focusable">true</item>
+        <item name="android:cursorVisible">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textColorHint">?attr/hintTextColor</item>
+        <item name="android:textCursorDrawable">@drawable/cursor_color</item>
+    </style>
+
+
+    <style name="AuthEditText">
+        <item name="android:textSize">@dimen/subHeadingTextSize</item>
+        <item name="android:background">@drawable/rounded_edittext</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:focusable">true</item>
+        <item name="android:cursorVisible">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textColorHint">?attr/hintTextColor</item>
+        <item name="android:textCursorDrawable">@drawable/ic_cursor_color</item>
+    </style>
+
+    <style name="SignOutEditText">
+        <item name="android:layout_marginHorizontal">32dp</item>
+        <item name="android:background">@drawable/rounded_edittext</item>
+        <item name="android:textSize">@dimen/subHeadingTextSize</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:focusable">true</item>
+        <item name="android:cursorVisible">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+        <item name="android:textCursorDrawable">@drawable/ic_cursor_color</item>
+    </style>
+
+    <style name="EditTextStyle">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:background">@drawable/edittext_background</item>
+        <item name="android:textSize">@dimen/subHeadingTextSize</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:focusable">true</item>
+        <item name="android:cursorVisible">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:textCursorDrawable">@drawable/cursor_color</item>
+    </style>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/boom_enter</item>
+        <item name="android:windowExitAnimation">@anim/boom_exit</item>
+    </style>
+</resources>

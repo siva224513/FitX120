@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootLayout"
+    style="@style/ItemContainerStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp"
+    android:theme="@style/Theme.BeginnerFit">
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/ivWorkoutImage"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:contentDescription="@string/workout_icon"
+        android:scaleType="centerCrop"
+        android:src="@drawable/pushup"
+        app:shapeAppearanceOverlay="@style/RoundedImage" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvWorkoutTitle"
+            style="@style/WorkListItemWorkoutTextPast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvSetsReps"
+            style="@style/SetsText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ivStatus"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginEnd="12dp"
+            android:contentDescription="@string/status_icon"
+            android:src="@drawable/check_incomplete_circle"
+            android:visibility="invisible" />
+
+
+        <ImageView
+            android:id="@+id/ivForwardArrow"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:contentDescription="@string/forward_arrow"
+            android:src="@drawable/outline_chevron_right_24"
+            app:tint="?android:attr/textColorPrimary" />
+
+    </LinearLayout>
+</LinearLayout>

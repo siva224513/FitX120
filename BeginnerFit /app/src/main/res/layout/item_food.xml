@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/foodName"
+        style="@style/FoodName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Boiled Egg" />
+
+    <TextView
+        android:id="@+id/calorie"
+        style="@style/CaloriesRelatedText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="155 cal" />
+</LinearLayout>

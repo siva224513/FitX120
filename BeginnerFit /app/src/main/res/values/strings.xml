@@ -1,0 +1,275 @@
+<resources>
+    <string name="app_name">FitX120</string>
+    <string name="startup_image_content">startup_image_content</string>
+    <string name="signup">SignUp</string>
+    <string name="signin">SignIn</string>
+    <string name="don_t_have_account">Don\'t have account?</string>
+    <string name="register_now"><u>Register Now</u></string>
+    <string name="login">LOGIN</string>
+    <string name="login_successful">Login Successful</string>
+    <string name="logout_successful">Logout Successful</string>
+    <string name="login_failed">Login Failed</string>
+    <string name="here">HERE</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_your_password">password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="email_id">email</string>
+    <string name="login_text">Login</string>
+    <string name="confirm_your_password">confirm  password</string>
+    <string name="name">Name</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_track_food">Tracker</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_profile">Profile</string>
+    <string name="welcome_to_beginner_fit">Welcome To \n FitX 120</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="title_activity_dash_board">TrackerActivity</string>
+    <string name="submit">Submit</string>
+    <string name="get_started">get started</string>
+    <string name="week">Week</string>
+    <string name="forward_arrow">forward arrow</string>
+    <string name="f">F</string>
+    <string name="s">S</string>
+    <string name="t">T</string>
+    <string name="w">W</string>
+    <string name="m">M</string>
+    <string name="workouts">WORKOUTS</string>
+    <string name="strike_icon">Strike Icon</string>
+    <string name="eaten">Eaten</string>
+    <string name="addButton">addButton</string>
+    <string name="addbutton">addButton</string>
+    <string name="sets">Sets |</string>
+    <string name="set">Set</string>
+    <string name="signin_here"><u>SignIn Here</u></string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="age">Age</string>
+    <string name="currentWeight">Current Weight</string>
+    <string name="height">Height</string>
+    <string name="targetWeight">Target Weight</string>
+    <string name="next">Next</string>
+    <string name="weight_kg">Weight(kg)</string>
+    <string name="reps">Reps</string>
+    <string name="rep">Reps -</string>
+    <string name="save">Save</string>
+    <string name="kg">KG</string>
+    <string name="workouttitle">WorkoutTitle</string>
+    <string name="target">Target</string>
+    <string name="achieved">Achieved</string>
+    <string name="workout">Workout</string>
+    <string name="zero">0</string>
+    <string name="workout_icon">Workout icon</string>
+    <string name="food_icon">Food Icon</string>
+    <string name="status_icon">status icon</string>
+    <string name="workout_image">workout image</string>
+    <string name="profile_icon_description">Profile completion icon</string>
+    <string name="complete_your_profile">Complete Your Profile</string>
+    <string name="enter_your_details_to_personalize_your_workout_plan">Enter your details to personalize your workout plan</string>
+    <string name="personal_information">Personal Information</string>
+    <string name="workout_program_type">Workout Program Type</string>
+    <string name="tracker_icon">tracker_icon</string>
+
+    <string name="protein">Protein</string>
+    <string name="carbs">Carbs</string>
+    <string name="fat">Fat</string>
+    <string name="fiber">Fiber</string>
+    <string name="remove_glass">Remove Glass</string>
+    <string name="add_glass">Add Glass</string>
+    <string name="weight_tracker">Weight Tracker</string>
+    <string name="enter_your_weight_kg">Enter your weight (kg)</string>
+    <string name="sleep_tracker">Sleep Tracker</string>
+    <string name="completed_8_hours_sleep">Completed 8 hours sleep</string>
+    <string name="sleep">Sleep</string>
+    <string name="weight">Weight</string>
+    <string name="water">Water</string>
+    <string name="calories">Calories</string>
+    <string name="day">Day</string>
+    <string name="target_weight">Target Weight</string>
+    <string name="current_weight">Current Weight</string>
+    <string name="start_weight">Start Weight</string>
+    <string name="icon">Icon</string>
+    <string name="food_tracker">FOOD TRACKER</string>
+    <string name="no_data_available">No data is available</string>
+
+    <string name="hello">HELLO,</string>
+    <string name="workout_done">Workout Done 💪</string>
+    <string name="register">Register</string>
+    <string name="kcal">kcal</string>
+    <string name="kcal_remaining">kcal remaining</string>
+    <string name="burned">Burned</string>
+    <string name="divider">/</string>
+    <string name="tap_to_view_or_log_meals">view and track daily goals</string>
+    <string name="health_trackers">Health Trackers</string>
+    <string name="glassIcon">glassIcon</string>
+    <string name="water_intake">Water Intake</string>
+    <string name="_1_glass_250_ml">1 Glass (250 ml)</string>
+    <string name="bmi">BMI</string>
+    <string name="follow_us_fitX120">Follow us @fitx120</string>
+    <string name="profile">Profile</string>
+    <string name="theme">Theme</string>
+    <string name="about">About</string>
+    <string name="account">Account</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="change_username">Change Username</string>
+    <string name="update_password">Update Password</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="enter_new_username">enter new Username</string>
+    <string name="username">Username</string>
+    <string name="update">Update</string>
+    <string name="password">Password</string>
+    <string name="enter_new_password">minimum 6 characters</string>
+    <string name="logout">Logout</string>
+
+
+    <string name="password_empty">Password cannot be empty</string>
+    <string name="password_updated">Password updated successfully</string>
+    <string name="password_update_failed">Failed to update password</string>
+
+    <string name="workout_saved_successfully">Workout saved successfully!</string>
+
+    <string name="no_internet_connection">No internet connection!</string>
+    <string name="sets_reps_format">%1$d %2$s  %3$s %4$s</string>
+
+    <string name="exercise_count_format">%1$d Exercises</string>
+
+
+    <string name="push_day_workout">Push Day Workout</string>
+    <string name="pull_day_workout">Pull Day Workout</string>
+    <string name="leg_day_workout">Leg Day Workout</string>
+    <string name="active_rest_day">Active Rest Day</string>
+
+
+    <string name="workout_completed">Workout completed</string>
+    <string name="incomplete_workout">Incomplete Workout</string>
+    <string name="workout_complete_message">Please complete all workouts to mark the day as completed</string>
+
+    <string name="ok">OK</string>
+
+
+    <string name="set_label_format">SET %1$d</string>
+
+    <string name="name_required">Name is Required</string>
+    <string name="email_required">Email Id is Required</string>
+    <string name="invalid_email">Please enter a valid email</string>
+    <string name="password_required">Password is Required</string>
+    <string name="confirm_password_required">Confirm Password is Required</string>
+    <string name="password_mismatch">Password mismatch</string>
+
+    <string name="register_success">Register successful</string>
+    <string name="register_failed">Register Failed</string>
+
+    <string name="invalid_email_or_password">Invalid email or password</string>
+
+    <string name="unexpected_error">An unexpected error occurred</string>
+
+    <string name="logout_alert">Are you sure you want to logout?</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="light_mode">Light Mode</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="label_name">Name</string>
+    <string name="label_email">Email</string>
+    <string name="label_age">Age</string>
+    <string name="label_gender">Gender</string>
+    <string name="label_height">Height</string>
+    <string name="label_current_weight">Current Weight</string>
+    <string name="label_target_weight">Target Weight</string>
+    <string name="label_program_plan">Program Plan</string>
+    <string name="label_start_date">Start Date</string>
+
+    <string name="label_starting_weight">%.1f kg</string>
+
+    <string name="done">✅</string>
+    <string name="not_done">-</string>
+    <string name="formatted_value">%.1f</string>
+    <string name="search_by_food_name">Search by Food Name</string>
+    <string name="meal_trackers">Meal Trackers</string>
+    <string name="delete_food_item">Delete food item</string>
+    <string name="social">Social</string>
+    <string name="instagram">Instagram</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="contact">Contact</string>
+    <string name="hello_fitx120_com">hello@fitx120.com</string>
+    <string name="policies">Policies</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_amp_conditions"><![CDATA[Terms & Conditions]]></string>
+    <string name="acknowledgements">Acknowledgements</string>
+    <string name="version_1_0_0">Version: 1.0.0</string>
+    <string name="fitx_120">FitX120</string>
+    <string name="delete">Delete</string>
+    <string name="this_action_cannot_be_reversed_enter_your_password_to_confirm">This action cannot be reversed. Enter your password to confirm.</string>
+    <string name="enter_password">Enter password</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm_account_deletion">Confirm Account Deletion</string>
+    <string name="_name">name</string>
+    <string name="enter_username">enter username</string>
+
+
+    <string name="error_username_length">Username must be 3–20 characters</string>
+    <string name="error_username_same">Username is the same as current one</string>
+    <string name="error_username_invalid">Only letters, numbers, and underscores allowed</string>
+    <string name="error_username_max">Username must be max of 20 characters</string>
+
+    <string name="username_updated">Username updated to %1$s</string>
+    <string name="username_update_failed">Failed to update username</string>
+
+    <string name="password_length_error">Password must be 6–20 characters</string>
+    <string name="password_complexity_error">Must have one uppercase, lowercase, number, and special character</string>
+
+    <string name="account_deleted">Account deleted</string>
+
+    <string name="food_deleted_updated">Food deleted</string>
+    <string name="food_deleted_failed">Food Deletion failed</string>
+
+    <string name="sleep_updated">Sleep track updated</string>
+
+    <string name="weight_progress">%1$.1f / %2$.1f kg</string>
+
+    <string name="nutrition_calorie">%1$d kcal</string>
+    <string name="nutrition_macro">%1$.2f g</string>
+
+    <string name="water_progress">%1$d / 8 Glasses</string>
+
+
+    <string name="error_weight_length">Please enter your weight</string>
+    <string name="error_weight_null">Invalid number format</string>
+    <string name="error_weight_min">Weight must be above 30 kg</string>
+    <string name="error_weight_max">  Weight must be below 200 kg</string>
+
+    <string name="breakfast">Breakfast</string>
+    <string name="morning_snack">MorningSnack</string>
+    <string name="lunch">Lunch</string>
+    <string name="evening_snack">EveningSnack</string>
+    <string name="dinner">Dinner</string>
+
+    <string name="water_reached_max">You\'ve already reached the max of 8 glasses!</string>
+    <string name="water_reached_min">You\'re already at 0 glasses!</string>
+
+    <string name="week_text">WEEK %1$d</string>
+
+    <string name="error_invalid_weight_kg">Enter valid weight</string>
+    <string name="error_invalid_reps">Enter valid reps</string>
+
+
+    <string-array name="program_types">
+        <item>Select Program Type</item>
+        <item>Bulking</item>
+        <item>Fat Loss</item>
+        <item>Maintenance</item>
+    </string-array>
+
+
+    <string name="error_program_type">Please select a program type</string>
+    <string name="error_age_invalid">Please enter a valid age (10–100)</string>
+    <string name="error_gender_empty">Please select a gender</string>
+    <string name="error_height_invalid">Please enter a valid height (50–250 cm)</string>
+    <string name="error_current_weight_invalid">Please enter a valid weight (20–300 kg)</string>
+    <string name="error_target_weight_invalid">Please enter a valid target weight (20–300 kg)</string>
+    <string name="error_target_weight_same">Target weight must be different from current weight</string>
+    <string name="stat_tuned">Stay tuned for this day</string>
+    <string name="welcome_to">Welcome to</string>
+    <string name="welcome_quote">A gamified 120-day journey to transform your body — build muscle, burn fat, and gain strength. Track your food, water, and progress, and stay motivated every day.</string>
+
+</resources>

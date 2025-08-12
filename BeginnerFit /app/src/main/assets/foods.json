@@ -1,0 +1,633 @@
+[
+  {
+    "id": 1,
+    "name": "Amaranth (1/2 cup cooked)",
+    "calories": 125,
+    "carbs": 27.0,
+    "protein": 5.0,
+    "fat": 2.0,
+    "fiber": 2.5
+  },
+  {
+    "id": 2,
+    "name": "Apple (1 medium)",
+    "calories": 95,
+    "carbs": 25,
+    "protein": 0.5,
+    "fat": 0.3,
+    "fiber": 4.4
+  },
+  {
+    "id": 3,
+    "name": "Arrowroot (2 tbsp)",
+    "calories": 39,
+    "carbs": 9,
+    "protein": 0.6,
+    "fat": 0.0,
+    "fiber": 0.2
+  },
+  {
+    "id": 4,
+    "name": "Bajra (1/2 cup cooked)",
+    "calories": 120,
+    "carbs": 20,
+    "protein": 3.0,
+    "fat": 1.5,
+    "fiber": 3.5
+  },
+  {
+    "id": 5,
+    "name": "Banana (1 medium)",
+    "calories": 105,
+    "carbs": 27,
+    "protein": 1.3,
+    "fat": 0.3,
+    "fiber": 3.1
+  },
+  {
+    "id": 6,
+    "name": "Barley (1/2 cup cooked)",
+    "calories": 123,
+    "carbs": 28,
+    "protein": 4.0,
+    "fat": 0.7,
+    "fiber": 3.0
+  },
+  {
+    "id": 7,
+    "name": "Barnyard Millet (1/2 cup cooked)",
+    "calories": 102,
+    "carbs": 21,
+    "protein": 2.5,
+    "fat": 1.0,
+    "fiber": 3.0
+  },
+  {
+    "id": 8,
+    "name": "Bitter Gourd (1 cup)",
+    "calories": 17,
+    "carbs": 3.4,
+    "protein": 0.8,
+    "fat": 0.1,
+    "fiber": 2.5
+  },
+  {
+    "id": 9,
+    "name": "Bottle Gourd (1 cup)",
+    "calories": 16,
+    "carbs": 2,
+    "protein": 0.4,
+    "fat": 0.1,
+    "fiber": 1.0
+  },
+  {
+    "id": 10,
+    "name": "Broccoli (1/2 cup cooked)",
+    "calories": 27,
+    "carbs": 5.3,
+    "protein": 2.4,
+    "fat": 0.3,
+    "fiber": 2.5
+  },
+  {
+    "id": 11,
+    "name": "Cabbage (1/2 cup cooked)",
+    "calories": 17,
+    "carbs": 4.1,
+    "protein": 0.9,
+    "fat": 0.1,
+    "fiber": 1.5
+  },
+  {
+    "id": 12,
+    "name": "Carrot (1 medium)",
+    "calories": 25,
+    "carbs": 6,
+    "protein": 0.6,
+    "fat": 0.1,
+    "fiber": 1.7
+  },
+  {
+    "id": 13,
+    "name": "Cauliflower (1/2 cup cooked)",
+    "calories": 22,
+    "carbs": 4.0,
+    "protein": 1.5,
+    "fat": 0.2,
+    "fiber": 2.0
+  },
+  {
+    "id": 14,
+    "name": "Chana (1/2 cup boiled)",
+    "calories": 160,
+    "carbs": 27,
+    "protein": 8.5,
+    "fat": 2.5,
+    "fiber": 7.5
+  },
+  {
+    "id": 15,
+    "name": "Chicken Curry (1/2 cup)",
+    "calories": 220,
+    "carbs": 5,
+    "protein": 25.0,
+    "fat": 12.0,
+    "fiber": 0.0
+  },
+  {
+    "id": 16,
+    "name": "Chole Masala (1/2 cup)",
+    "calories": 175,
+    "carbs": 26.5,
+    "protein": 9.0,
+    "fat": 8.0,
+    "fiber": 6.0
+  },
+  {
+    "id": 17,
+    "name": "Cow Milk (1 cup)",
+    "calories": 149,
+    "carbs": 12,
+    "protein": 8.0,
+    "fat": 8.0,
+    "fiber": 0.0
+  },
+  {
+    "id": 18,
+    "name": "Curd (1 cup)",
+    "calories": 98,
+    "carbs": 3.4,
+    "protein": 11.0,
+    "fat": 4.3,
+    "fiber": 0.0
+  },
+  {
+    "id": 19,
+    "name": "Dal Tadka (1/2 cup)",
+    "calories": 150,
+    "carbs": 24,
+    "protein": 6.0,
+    "fat": 5.0,
+    "fiber": 3.0
+  },
+  {
+    "id": 20,
+    "name": "Dosa (1 medium)",
+    "calories": 125,
+    "carbs": 17,
+    "protein": 3.0,
+    "fat": 3.0,
+    "fiber": 1.0
+  },
+  {
+    "id": 21,
+    "name": "Fish Curry (1/2 cup)",
+    "calories": 116,
+    "carbs": 2,
+    "protein": 20.0,
+    "fat": 3.0,
+    "fiber": 0.0
+  },
+  {
+    "id": 22,
+    "name": "Fox tail Millet (1/2 cup cooked)",
+    "calories": 115,
+    "carbs": 22,
+    "protein": 2.0,
+    "fat": 1.0,
+    "fiber": 3.0
+  },
+  {
+    "id": 23,
+    "name": "Green Peas (1/2 cup)",
+    "calories": 62,
+    "carbs": 11,
+    "protein": 3.2,
+    "fat": 0.2,
+    "fiber": 4.4
+  },
+  {
+    "id": 24,
+    "name": "Horse Gram (1/2 cup cooked)",
+    "calories": 135,
+    "carbs": 24,
+    "protein": 9.0,
+    "fat": 0.3,
+    "fiber": 4.0
+  },
+  {
+    "id": 25,
+    "name": "Idli (2 medium)",
+    "calories": 132,
+    "carbs": 28,
+    "protein": 4.0,
+    "fat": 3.0,
+    "fiber": 1.0
+  },
+  {
+    "id": 26,
+    "name": "Jowar (1/2 cup cooked)",
+    "calories": 118,
+    "carbs": 21,
+    "protein": 3.0,
+    "fat": 1.0,
+    "fiber": 3.0
+  },
+  {
+    "id": 27,
+    "name": "Lobia (1/2 cup cooked)",
+    "calories": 130,
+    "carbs": 23,
+    "protein": 8.0,
+    "fat": 0.5,
+    "fiber": 5.0
+  },
+  {
+    "id": 28,
+    "name": "Mango (1 cup pieces)",
+    "calories": 99,
+    "carbs": 24.7,
+    "protein": 0.8,
+    "fat": 0.6,
+    "fiber": 2.6
+  },
+  {
+    "id": 29,
+    "name": "Masoor Dal (1/2 cup cooked)",
+    "calories": 165,
+    "carbs": 29,
+    "protein": 10.0,
+    "fat": 0.6,
+    "fiber": 10.0
+  },
+  {
+    "id": 30,
+    "name": "Mixed Veg Curry (1/2 cup)",
+    "calories": 95,
+    "carbs": 10,
+    "protein": 2.0,
+    "fat": 6.0,
+    "fiber": 3.0
+  },
+  {
+    "id": 31,
+    "name": "Moong Dal (1/2 cup cooked)",
+    "calories": 135,
+    "carbs": 20,
+    "protein": 9.0,
+    "fat": 0.2,
+    "fiber": 7.0
+  },
+  {
+    "id": 32,
+    "name": "Paneer (100g)",
+    "calories": 265,
+    "carbs": 4.3,
+    "protein": 18.0,
+    "fat": 20.0,
+    "fiber": 0.0
+  },
+  {
+    "id": 33,
+    "name": "Pomegranate (1/2 cup seeds)",
+    "calories": 72,
+    "carbs": 16,
+    "protein": 1.5,
+    "fat": 0.2,
+    "fiber": 2.0
+  },
+  {
+    "id": 34,
+    "name": "Potato (1 medium boiled)",
+    "calories": 130,
+    "carbs": 30,
+    "protein": 3.0,
+    "fat": 0.2,
+    "fiber": 2.2
+  },
+  {
+    "id": 35,
+    "name": "Punjabi Samosa (1 medium)",
+    "calories": 250,
+    "carbs": 28,
+    "protein": 5.0,
+    "fat": 12.0,
+    "fiber": 3.0
+  },
+  {
+    "id": 36,
+    "name": "Puri (1 medium)",
+    "calories": 107,
+    "carbs": 17,
+    "protein": 3.4,
+    "fat": 3.0,
+    "fiber": 1.0
+  },
+  {
+    "id": 37,
+    "name": "Ragi (1/2 cup cooked)",
+    "calories": 112,
+    "carbs": 20,
+    "protein": 3.0,
+    "fat": 1.0,
+    "fiber": 2.0
+  },
+  {
+    "id": 38,
+    "name": "Rajma (1/2 cup boiled)",
+    "calories": 140,
+    "carbs": 25,
+    "protein": 8.0,
+    "fat": 0.5,
+    "fiber": 6.0
+  },
+  {
+    "id": 39,
+    "name": "Red Rice (1/2 cup cooked)",
+    "calories": 130,
+    "carbs": 28,
+    "protein": 2.0,
+    "fat": 0.2,
+    "fiber": 1.0
+  },
+  {
+    "id": 40,
+    "name": "Rice (1/2 cup cooked)",
+    "calories": 102,
+    "carbs": 22,
+    "protein": 2.0,
+    "fat": 0.2,
+    "fiber": 0.1
+  },
+  {
+    "id": 41,
+    "name": "Roti (1 medium)",
+    "calories": 146,
+    "carbs": 24,
+    "protein": 4.0,
+    "fat": 1.0,
+    "fiber": 2.0
+  },
+  {
+    "id": 42,
+    "name": "Sabudana (1/2 cup boiled)",
+    "calories": 110,
+    "carbs": 25,
+    "protein": 0.1,
+    "fat": 0.1,
+    "fiber": 0.3
+  },
+  {
+    "id": 43,
+    "name": "Soya Chunks (30g dry)",
+    "calories": 100,
+    "carbs": 11,
+    "protein": 15.0,
+    "fat": 0.1,
+    "fiber": 2.0
+  },
+  {
+    "id": 44,
+    "name": "Soybeans (1/2 cup boiled)",
+    "calories": 175,
+    "carbs": 9,
+    "protein": 16.0,
+    "fat": 9.0,
+    "fiber": 6.0
+  },
+  {
+    "id": 45,
+    "name": "Spinach (1/2 cup cooked)",
+    "calories": 21,
+    "carbs": 3.2,
+    "protein": 2.3,
+    "fat": 0.3,
+    "fiber": 2.2
+  },
+  {
+    "id": 46,
+    "name": "Sweet Potato (1 medium boiled)",
+    "calories": 112,
+    "carbs": 27,
+    "protein": 2.0,
+    "fat": 0.1,
+    "fiber": 4.0
+  },
+  {
+    "id": 47,
+    "name": "Teff (1/2 cup cooked)",
+    "calories": 165,
+    "carbs": 32,
+    "protein": 5.0,
+    "fat": 1.5,
+    "fiber": 4.0
+  },
+  {
+    "id": 48,
+    "name": "Toor Dal (1/2 cup cooked)",
+    "calories": 150,
+    "carbs": 27,
+    "protein": 9.0,
+    "fat": 0.5,
+    "fiber": 9.0
+  },
+  {
+    "id": 49,
+    "name": "Urad Dal (1/2 cup cooked)",
+    "calories": 170,
+    "carbs": 28,
+    "protein": 11.0,
+    "fat": 0.6,
+    "fiber": 10.0
+  },
+  {
+    "id": 50,
+    "name": "Whole Wheat Roti (1 roti)",
+    "calories": 146,
+    "carbs": 24,
+    "protein": 4.0,
+    "fat": 1.0,
+    "fiber": 2.0
+  },
+  {
+    "id": 51,
+    "name": "Almonds (10 pieces)",
+    "calories": 70,
+    "carbs": 2.5,
+    "protein": 2.6,
+    "fat": 6.2,
+    "fiber": 1.4
+  },
+  {
+    "id": 52,
+    "name": "Avocado (100g)",
+    "calories": 160,
+    "carbs": 8.5,
+    "protein": 2.0,
+    "fat": 15.0,
+    "fiber": 6.7
+  },
+  {
+    "id": 53,
+    "name": "Beetroot (1/2 cup cooked)",
+    "calories": 37,
+    "carbs": 8.5,
+    "protein": 1.3,
+    "fat": 0.1,
+    "fiber": 1.7
+  },
+  {
+    "id": 54,
+    "name": "Boiled Egg White (1)",
+    "calories": 17,
+    "carbs": 0.2,
+    "protein": 3.6,
+    "fat": 0.1,
+    "fiber": 0.0
+  },
+  {
+    "id": 55,
+    "name": "Brinjal (1/2 cup cooked)",
+    "calories": 33,
+    "carbs": 8.0,
+    "protein": 1.2,
+    "fat": 0.2,
+    "fiber": 2.5
+  },
+  {
+    "id": 56,
+    "name": "Butter (1 tsp)",
+    "calories": 34,
+    "carbs": 0.0,
+    "protein": 0.0,
+    "fat": 3.8,
+    "fiber": 0.0
+  },
+  {
+    "id": 57,
+    "name": "Chapati with Ghee (1)",
+    "calories": 180,
+    "carbs": 25,
+    "protein": 4.0,
+    "fat": 6.0,
+    "fiber": 2.0
+  },
+  {
+    "id": 58,
+    "name": "Coconut (1/4 cup grated)",
+    "calories": 99,
+    "carbs": 4.3,
+    "protein": 1.0,
+    "fat": 9.4,
+    "fiber": 2.5
+  },
+
+  {
+    "id": 59,
+    "name": "Cucumber (1/2 cup)",
+    "calories": 8,
+    "carbs": 1.9,
+    "protein": 0.3,
+    "fat": 0.1,
+    "fiber": 0.3
+  },
+  {
+    "id": 60,
+    "name": "Drumstick (1/2 cup cooked)",
+    "calories": 45,
+    "carbs": 8.2,
+    "protein": 2.1,
+    "fat": 0.2,
+    "fiber": 3.2
+  },
+  {
+    "id": 61,
+    "name": "Egg (1 boiled)",
+    "calories": 77,
+    "carbs": 0.6,
+    "protein": 6.3,
+    "fat": 5.3,
+    "fiber": 0.0
+  },
+  {
+    "id": 62,
+    "name": "Ghee (1 tsp)",
+    "calories": 45,
+    "carbs": 0.0,
+    "protein": 0.0,
+    "fat": 5.0,
+    "fiber": 0.0
+  },
+  {
+    "id": 63,
+    "name": "Green Gram Sprouts (1/2 cup)",
+    "calories": 70,
+    "carbs": 12,
+    "protein": 5.0,
+    "fat": 0.2,
+    "fiber": 3.0
+  },
+  {
+    "id": 64,
+    "name": "Oats (1/2 cup cooked)",
+    "calories": 154,
+    "carbs": 27,
+    "protein": 6.0,
+    "fat": 3.0,
+    "fiber": 4.0
+  },
+  {
+    "id": 65,
+    "name": "Olive Oil (1 tbsp)",
+    "calories": 119,
+    "carbs": 0.0,
+    "protein": 0.0,
+    "fat": 13.5,
+    "fiber": 0.0
+  },
+  {
+    "id": 66,
+    "name": "Onion (1 medium)",
+    "calories": 44,
+    "carbs": 10.3,
+    "protein": 1.2,
+    "fat": 0.1,
+    "fiber": 1.9
+  },
+  {
+    "id": 67,
+    "name": "Peanuts (25g)",
+    "calories": 140,
+    "carbs": 4.5,
+    "protein": 6.0,
+    "fat": 12.0,
+    "fiber": 2.0
+  },
+  {
+    "id": 68,
+    "name": "Pumpkin (1/2 cup cooked)",
+    "calories": 26,
+    "carbs": 6.5,
+    "protein": 1.0,
+    "fat": 0.1,
+    "fiber": 0.5
+  },
+  {
+    "id": 69,
+    "name": "Tomato (1 medium)",
+    "calories": 22,
+    "carbs": 4.8,
+    "protein": 1.1,
+    "fat": 0.2,
+    "fiber": 1.5
+  },
+  {
+    "id": 70,
+    "name": "Walnuts (7 halves)",
+    "calories": 130,
+    "carbs": 4.0,
+    "protein": 3.0,
+    "fat": 13.0,
+    "fiber": 1.5
+  }
+]

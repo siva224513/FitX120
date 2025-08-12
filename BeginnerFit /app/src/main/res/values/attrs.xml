@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <attr name="workoutItemBackgroundPast" format="reference" />
+    <attr name="workoutItemBackgroundToday" format="reference" />
+    <attr name="workoutItemBackgroundFuture" format="reference" />
+
+    <attr name="workoutTextColorPast" format="color" />
+    <attr name="workoutTextColorFuture" format="color" />
+    <attr name="workoutTextColorToday" format="color" />
+
+    <attr name="dayBackground" format="reference" />
+
+
+
+</resources>

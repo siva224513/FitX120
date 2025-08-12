@@ -1,0 +1,46 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="300dp"
+    android:height="180dp"
+    android:viewportWidth="300"
+    android:viewportHeight="180">
+
+    <!-- Background scale -->
+    <group android:name="scaleBase">
+        <path
+            android:fillColor="#A5D6A7"
+            android:pathData="M20,160 Q0,90 30,30 Q150,-10 270,30 Q300,90 280,160 Z" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M40,150 Q20,90 40,40 Q150,10 260,40 Q280,90 260,150 Z" />
+
+        <!-- Tick marks -->
+        <!-- You can add more ticks as needed -->
+        <path android:strokeColor="#000000" android:strokeWidth="2" android:pathData="M80,70 L80,90"/>
+        <path android:strokeColor="#000000" android:strokeWidth="2" android:pathData="M110,60 L110,90"/>
+        <path android:strokeColor="#000000" android:strokeWidth="2" android:pathData="M140,55 L140,90"/>
+        <path android:strokeColor="#000000" android:strokeWidth="2" android:pathData="M170,60 L170,90"/>
+        <path android:strokeColor="#000000" android:strokeWidth="2" android:pathData="M200,70 L200,90"/>
+
+        <!-- Center circle -->
+        <path android:fillColor="#333333" android:pathData="M145,85 A5,5 0 1,1 144.9,85 Z" />
+
+        <!-- KG Text -->
+        <path
+            android:fillColor="#000000"
+            android:pathData="M135,130 h30"
+            android:strokeWidth="1"
+            android:strokeColor="#000000"/>
+    </group>
+
+    <!-- Needle (separate group to rotate) -->
+    <group
+        android:name="needle"
+        android:pivotX="150"
+        android:pivotY="90"
+        android:rotation="0">
+
+        <path
+            android:fillColor="#FF6F00"
+            android:pathData="M148,90 L152,90 L150,40 Z"/>
+    </group>
+</vector>

@@ -1,0 +1,47 @@
+<resources>
+
+
+    <style name="Theme.App.SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/dark_black</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_screen_image</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.BeginnerFit</item>
+    </style>
+
+
+    <style name="Base.Theme.BeginnerFit" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:statusBarColor">@color/app_background</item>
+
+        <item name="colorPrimary">@color/yellow</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="backgroundColor">@color/yellow</item>
+
+        <item name="colorOnBackground">@color/app_background</item>
+        <item name="android:textColorPrimary">@color/black</item>
+
+        <item name="android:textColorSecondary">@color/secondary_text</item>
+        <item name="android:textColorSecondaryInverse">@color/white</item>
+
+        <item name="colorAccent">@color/container_background</item>
+        <item name="colorOnSecondary">@color/container_background_future</item>
+
+        <item name="android:textColorHighlight">@color/red_background</item>
+        <item name="hintTextColor">@color/text_hint</item>
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="android:textColorLink">@color/white</item>
+    </style>
+
+
+    <style name="Theme.BeginnerFit" parent="Base.Theme.BeginnerFit">
+        <item name="workoutItemBackgroundPast">@drawable/bg_past_day</item>
+        <item name="workoutItemBackgroundToday">@drawable/bg_today</item>
+        <item name="workoutItemBackgroundFuture">@drawable/bg_future_day</item>
+
+        <item name="workoutTextColorPast">?android:attr/textColorHighlight</item>
+        <item name="workoutTextColorToday">?android:attr/textColorSecondaryInverse</item>
+        <item name="workoutTextColorFuture">@color/FutureTextColor</item>
+    </style>
+</resources>

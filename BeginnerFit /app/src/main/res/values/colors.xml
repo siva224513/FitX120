@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#0D0D0D</color>
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#FFD700</color>
+    <color name="gray">#AAAAAA</color>
+    <color name="green">#4CAF50</color>
+    <color name="greenLight">#22AF34</color>
+    <color name="greenDark">#388E3C</color>
+    <color name="red">#FF0000</color>
+
+
+    <color name="app_background">#F2F1F1</color>
+    <color name="container_background">#F6F5F5</color>
+
+    <color name="container_background_future">#F2F1F1</color>
+
+
+    <color name="dark_black">#0A0A0A</color>
+
+
+    <color name="TodayTextColor">#FFFFFF</color>
+    <color name="PastTextColor">#0D0D0D</color>
+    <color name="FutureTextColor">#C0C0C0</color>
+
+
+    <color name="red_background">#F0584B</color>
+
+    <color name="workout_card">#DDDDDD</color>
+
+    <color name="calendar_selected">#E7E6E6</color>
+
+
+    <color name="text_hint">#B0BEC5</color>
+    <color name="secondary_text">#888888</color>
+
+
+    <color name="button_text">#000000</color>
+
+
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorOnBackground">#000000</color>
+    <color name="colorEditTextBackground">#F2F2F2</color>
+    <color name="colorHint">#9E9E9E</color>
+
+    <color name="main_colorPrimary">#FFD700</color>
+
+
+    <color name="gradient_start">@android:color/holo_red_light</color>
+    <color name="gradient_end">#FFFFFF</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="input_background">#F5F5F5</color>
+    <color name="input_border">#E0E0E0</color>
+    <color name="primary_text">#333333</color>
+
+    <color name="purple_500">#9C27B0</color>
+    <color name="teal_700">#00796B</color>
+
+
+</resources>

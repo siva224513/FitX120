@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:fillViewport="true"
+    android:padding="10dp"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/streakSelector"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textHeading"
+                style="@style/HeadingStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/meal_trackers"
+                android:textAllCaps="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textDateInfo"
+                style="@style/Date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="?android:attr/textColorPrimary"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <include
+            android:id="@+id/breakfastTracker"
+            layout="@layout/meal_tracker_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp" />
+
+        <include
+            android:id="@+id/morningSnackTracker"
+            layout="@layout/meal_tracker_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp" />
+
+        <include
+            android:id="@+id/lunchTracker"
+            layout="@layout/meal_tracker_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp" />
+
+        <include
+            android:id="@+id/eveningSnackTracker"
+            layout="@layout/meal_tracker_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp" />
+
+        <include
+            android:id="@+id/dinnerTracker"
+            layout="@layout/meal_tracker_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp" />
+
+
+        <TextView
+            style="@style/HeadingStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="@string/health_trackers"
+            android:textAllCaps="true" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/waterTrackerContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="8dp"
+            android:background="@drawable/meal_tracker_card"
+            android:padding="16dp">
+
+
+            <TextView
+                android:id="@+id/tvWaterTitle"
+                style="@style/MealCardTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:text="@string/water_intake"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/glassValue"
+                style="@style/MealCardTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_1_glass_250_ml"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toEndOf="@+id/tvWaterTitle"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <LinearLayout
+                android:id="@+id/waterGlassesContainer"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvWaterTitle">
+
+                <ImageView
+                    android:id="@+id/glass1"
+                    style="@style/Glass"
+                    android:contentDescription="@string/glassIcon" />
+
+                <ImageView
+                    android:id="@+id/glass2"
+                    style="@style/Glass"
+                    android:contentDescription="@string/glassIcon" />
+
+                <ImageView
+                    android:id="@+id/glass3"
+                    style="@style/Glass"
+                    android:contentDescription="@string/glassIcon" />
+
+                <ImageView
+                    android:id="@+id/glass4"
+                    style="@style/Glass"
+                    android:contentDescription="@string/glassIcon" />
+
+                <ImageView
+                    android:id="@+id/glass5"
+                    style="@style/Glass"
+                    android:contentDescription="@string/glassIcon" />
+
+                <ImageView
+                    android:id="@+id/glass6"
+                    style="@style/Glass"
+                    android:contentDescription="@string/glassIcon" />
+
+                <ImageView
+                    android:id="@+id/glass7"
+                    style="@style/Glass"
+                    android:contentDescription="@string/glassIcon" />
+
+                <ImageView
+                    android:id="@+id/glass8"
+                    style="@style/Glass"
+                    android:contentDescription="@string/glassIcon" />
+            </LinearLayout>
+
+
+            <ImageButton
+                android:id="@+id/btnWaterRemove"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/rounded_macro_background"
+                android:contentDescription="@string/remove_glass"
+                android:src="@drawable/ic_minus"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/waterGlassesContainer" />
+
+            <TextView
+                android:id="@+id/tvWaterProgress"
+                style="@style/MealCardMacroText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:text="0 / 8 Glasses"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/btnWaterAdd"
+                app:layout_constraintHorizontal_bias="0.266"
+                app:layout_constraintStart_toEndOf="@id/btnWaterRemove"
+                app:layout_constraintTop_toBottomOf="@+id/waterGlassesContainer"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <ImageButton
+                android:id="@+id/btnWaterAdd"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="70dp"
+                android:background="@drawable/rounded_macro_background"
+                android:contentDescription="@string/add_glass"
+                android:src="@drawable/outline_add_box_24"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/waterGlassesContainer" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/weightTrackerContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="8dp"
+            android:background="@drawable/meal_tracker_card"
+            android:padding="16dp">
+
+
+            <TextView
+                android:id="@+id/tvWeightTitle"
+                style="@style/TrackerTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/weight_tracker"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/tvWeightProgress"
+                style="@style/MealCardMacroText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvWeightTitle" />
+
+
+            <ProgressBar
+                android:id="@+id/weightProgressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="10dp"
+                android:layout_marginTop="4dp"
+                android:max="100"
+                android:progressTint="@color/red_background"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvWeightProgress" />
+
+
+            <EditText
+                android:id="@+id/etWeightInput"
+                style="@style/EditTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:inputType="numberDecimal"
+                android:hint="@string/enter_your_weight_kg"
+                app:layout_constraintEnd_toStartOf="@id/btnSaveWeight"
+                app:layout_constraintHorizontal_weight="1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/weightProgressBar" />
+
+            <TextView
+                android:id="@+id/weightError"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginVertical="5dp"
+                android:textColor="@android:color/holo_red_dark"
+                android:text="Weight must be below 200 kg"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/etWeightInput"
+                app:layout_constraintVertical_bias="0.09" />
+
+
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSaveWeight"
+                style="@style/WorkoutDoneButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="@string/save"
+                app:layout_constraintBottom_toBottomOf="@id/etWeightInput"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/etWeightInput" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/sleepTrackerContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="8dp"
+            android:background="@drawable/meal_tracker_card"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/tvSleepTitle"
+                style="@style/TrackerTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/sleep_tracker"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <CheckBox
+                android:id="@+id/cbSleepCompleted"
+                style="@style/SleepCheckbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="@string/completed_8_hours_sleep"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvSleepTitle"
+                tools:layout_editor_absoluteX="-2dp"
+                tools:layout_editor_absoluteY="38dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,13 @@
+<resources>
+
+
+
+    <dimen name="titleTextSize">60sp</dimen>
+    <dimen name="subTitleTextSize">40sp</dimen>
+    <dimen name="headingTextSize">20sp</dimen>
+    <dimen name="subHeadingTextSize">16sp</dimen>
+    <dimen name="body">14sp</dimen>
+
+
+
+</resources>

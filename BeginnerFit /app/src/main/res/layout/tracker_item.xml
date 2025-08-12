@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/trackerItemContainer"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/tracker_card_bg"
+    android:elevation="5dp"
+    android:padding="8dp">
+
+
+    <com.mikhaellopez.circularprogressbar.CircularProgressBar
+        android:id="@+id/Progressbar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        app:cpb_background_progressbar_color="@color/gray"
+        app:cpb_background_progressbar_color_direction="left_to_right"
+        app:cpb_background_progressbar_width="5dp"
+        app:cpb_progressbar_color="@color/green"
+        app:cpb_progressbar_width="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/trackerIcon"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/carbs_image"
+        app:layout_constraintBottom_toBottomOf="@id/Progressbar"
+        app:layout_constraintEnd_toEndOf="@id/Progressbar"
+        app:layout_constraintStart_toStartOf="@id/Progressbar"
+        app:layout_constraintTop_toTopOf="@id/Progressbar"
+        app:shapeAppearanceOverlay="@drawable/circular" />
+
+
+    <TextView
+        android:id="@+id/Label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:gravity="center_vertical"
+        android:text="Protein"
+        android:textSize="@dimen/body"
+        app:layout_constraintBottom_toTopOf="@id/eatenFibre"
+        app:layout_constraintStart_toEndOf="@id/Progressbar"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/eatenFibre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:text="100"
+        android:textSize="@dimen/body"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@id/Label"
+        app:layout_constraintTop_toBottomOf="@id/Label" />
+
+
+    <TextView
+        android:id="@+id/divider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="/"
+        android:textSize="@dimen/body"
+        app:layout_constraintBaseline_toBaselineOf="@id/eatenFibre"
+        app:layout_constraintStart_toEndOf="@id/eatenFibre" />
+
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="230"
+        android:textSize="@dimen/body"
+        app:layout_constraintBaseline_toBaselineOf="@id/eatenFibre"
+        app:layout_constraintStart_toEndOf="@id/divider" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
